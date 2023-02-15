@@ -47,3 +47,51 @@ y = 5
 # y-- = 4, porque é um operador unário pós-fixado
 
 # porcentagem sempre valor de uma váriavel / valor da váriavel * 100 = porcentagem
+
+## Operadores relacionais 
+
+> ## maior
+<= ## menor ou igual
+>= ## maior ou igual
+!= ## diferente 
+== ## igual 
+
+## atribuição
+
+a = 5
+
+a += 
+
+a -= 
+
+a *= 
+
+a /= 
+
+# AND
+True and False
+False and False
+True and True
+
+# OR 
+
+True or True
+True or False
+False or True 
+False or False
+
+# XOR = or exculise, one or other, just!
+
+True != True
+True != False
+False != True
+False != False
+
+# NOT - negation
+
+not true 
+not false 
+
+# | = or 
+
+# ^ = XOR
