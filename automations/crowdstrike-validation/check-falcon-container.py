@@ -20,6 +20,19 @@ def show_falconcontainer_status():
         print(f"{date_now} - ERROR - status: [fail]")
 
 
+def check_falcon_injector_pods():
+    kubectl get pods | grep -v Running
+
+
+def check_falcon_injector():
+    falcon-injector_check_pods = check_falcon_injector_pods()
+    date_now = datetime.now()
+    if falconcontainer_status == "DONE":
+        print(f"{date_now} - PODS - status: [running]")
+    else:
+        print(f"{date_now} - PODS - status: [not working]")
+
 # ---
 
 show_falconcontainer_status()
+check_falcon_injector()
