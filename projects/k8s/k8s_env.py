@@ -1,0 +1,1 @@
+kubens = "kubectl get ns -o name | cut -d "/" -f2 | grep onyo"
